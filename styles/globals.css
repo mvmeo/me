@@ -1,0 +1,25 @@
+@tailwind base;
+
+body {
+    /* background-color: #111; */
+    background-color: #fff;
+}
+
+* {
+    font-family: 'courier'
+}
+
+.perfil {
+    background-image: url(../assets/me2.png)
+}
+
+.epauta {
+    background-image: url(../assets/epauta.png)
+}
+
+.fotoHobbieFotografia {
+    background-image: url(../assets/land.png)
+}
+
+@tailwind components;
+@tailwind utilities;

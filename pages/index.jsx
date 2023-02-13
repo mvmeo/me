@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Card from "../components/Card";
+import Head from 'next/head'
+import Card from '../components/Card'
 
 export default function Home() {
   return (
@@ -11,10 +11,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className="grid grid-col-2 gap-4">
-          <Card />
+        <div>
+          <h1 className='container mx-auto p-8 text-[30px] font-bold'>Samuel's LinkTree</h1>
+        </div>
+        <section className='grid lg:grid-cols-4 md:grid-cols-2 gap-8 container mx-auto sm:p-8 md:p-0'>
+        <Card link="https://github.com/mvmeo" titulo="GITHUB" color="bg-gray-700"/>
+        <Card link="https://www.strava.com/athletes/100879125" titulo="STRAVA" color="bg-orange-400"/>
+        <Card link="https://medium.com/@samuelangulo" titulo="MEDIUM (Blog)" color="bg-red-500"/>
+        <Card link="https://twitter.com/sam_angulo_" titulo="TWITTER" color="bg-blue-500"/>
         </section>
+        
       </main>
     </>
-  );
+  )
 }

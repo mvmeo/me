@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <h1 className='container mx-auto p-8 text-[30px] font-bold'>Samuel's LinkTree</h1>
+          <h1 className='container mx-auto p-8 text-[30px] font-bold'>Samuel Angulo</h1>
         </div>
         <section className='grid lg:grid-cols-4 md:grid-cols-2 gap-8 container mx-auto sm:p-8 md:p-0'>
         <Card link="https://github.com/mvmeo" titulo="GITHUB" color="bg-gray-700"/>
